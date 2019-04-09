@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+
+[aria-current]:not([aria-current="false"]) {
+  color : red;
+}
